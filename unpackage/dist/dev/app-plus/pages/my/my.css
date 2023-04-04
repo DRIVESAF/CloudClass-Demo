@@ -1,0 +1,42 @@
+
+.pr-min{
+		padding-right: 5rem;
+}
+.pr-max{
+	padding-right: 14.375rem;
+}
+.pr-more{
+	padding-right: 15.625rem;
+}
+.pr-sup{
+	padding-right: 16.25rem;
+}
+.pr-usr{
+	padding-right: 12.5rem;
+}
+.thumbnail {
+		width: 50px;
+		height: 3.4375rem;
+		border-radius: var(--radius);
+}
+.value-box{
+	width: 50px;
+	height: 3.4375rem;
+}
+.username{
+	width: 21.875rem;
+	height: 2.1875rem;
+	position: absolute;
+	top: 1.75rem;
+	left: 5.625rem;
+}
+.icon-fangxiang{
+		font-weight:bold;
+}
+.blue{
+	color: var(--info);
+}
+.mana-box{
+	padding: 0.9375rem;
+}
+

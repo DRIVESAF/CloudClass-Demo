@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "云班课"
+			}
+		},
+		 {
+					"path": "pages/find/find",
+					"style": {
+						// 顶部导航栏标题文字内容
+						"navigationBarTitleText": "发现",
+						// 顶部导航栏背景颜色
+						"navigationBarBackgroundColor": "#FFFFFF",
+						// 顶部导航栏标题文字颜色
+						"navigationBarTextStyle": "black",
+						// 是否开启下拉刷新
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "pages/my/my",
+					"style": {
+						"navigationBarTitleText": "我的",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black",
+						"enablePullDownRefresh": false
+					}
+				}
+	    ,{
+            "path" : "components/uni-status-bar/uni-status-bar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		//文字未选中颜色
+		"color": "#dfdcda",
+		//选中颜色
+		"selectedColor": "#20cef0",
+		//边框颜色
+		"borderStyle": "black",
+		// 背景颜色
+		"backgroundColor": "#fff",
+		// 配置tab页面
+		"list": [{
+			// 对应页面地址
+			"pagePath": "pages/index/index",
+			// 显示文字
+			"text": "班课",
+			// 图标选中和未选中
+			"iconPath": "static/tabbar/list.png",
+			"selectedIconPath": "static/tabbar/list-index.png"
+		}, {
+			// 对应页面地址
+			"pagePath": "pages/find/find",
+			// 显示文字
+			"text": "发现",
+			"iconPath": "static/tabbar/index.png",
+			"selectedIconPath": "static/tabbar/index-selected.png"
+		}, {
+			// 对应页面地址
+			"pagePath": "pages/my/my",
+			// 显示文字
+			"text": "我的",
+			"iconPath": "static/tabbar/my.png",
+			"selectedIconPath": "static/tabbar/my-selected.png"
+		}]
+		
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

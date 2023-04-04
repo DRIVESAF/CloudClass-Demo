@@ -1,0 +1,210 @@
+<template>
+	
+	<!-- 自定义状态栏 -->
+<!-- 	<uni-status-bar>
+	</uni-status-bar> -->
+	
+	<!-- 用户区开始 -->
+	<view class="p-3 bg-white border-bottom">
+		<image src="../../static/logo.png" class="thumbnail"></image>
+		<view class="username">
+			<text class="text-dark pr-usr">用户名</text>
+			<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+		</view>
+
+	</view>
+	<!-- 用户区结束 -->
+	<!-- 数值区开始 -->
+	<view class="p-2 f-around bg-white mb-5 ">
+	
+		<view class="border-right value-box pr-3">
+	
+			<view class="font text-muted mt-1 pl-3 blue">11</view>
+	
+			<view class="font text-muted mt-1 h4">经验值</view>
+	
+		</view>
+	
+		<view class="border-right pr-5">
+	
+			<view class="font text-muted mt-1 pl-4 blue">0</view>
+	
+			<view class="font text-muted mt-1 h4">魅力值</view>
+	
+		</view>
+	
+		<view class="border-right pr-5">
+	
+			<view class="font text-muted mt-1 pl-2 blue">0</view>
+	
+			<view class="font text-muted mt-1 h4">蓝豆</view>
+	
+		</view>
+	
+		<view>
+	
+			<view class="font text-muted mt-1 pl-2 blue">0</view>
+	
+			<view class="font text-muted mt-1 h4">心意</view>
+	
+		</view>
+	</view>
+	<!-- 数值区结束 -->
+	
+	<!-- 管理区开始 -->
+	<view class="p-2 f-around bg-white mb-5 border-bottom mana-box">
+	
+		<view style="color: blue;">
+	
+			<view class="iconfont icon-Password-Light pl-3"></view>
+	
+			<view class="font text-muted mt-1">我的空间</view>
+	
+		</view>
+	
+		<view style="color: goldenrod;">
+	
+			<view class="iconfont icon-Heart-Light pl-4"></view>
+	
+			<view class="font text-muted mt-1">我的收藏</view>
+	
+		</view>
+	
+		<view style="color: hotpink;">
+	
+			<view class="iconfont icon-Document-Light pl-4"></view>
+	
+			<view class="font text-muted mt-1">心意卡片</view>
+	
+		</view>
+	
+		<view style="color: green">
+	
+			<view class="iconfont icon-Category-Light pl-4"></view>
+	
+			<view class="font text-muted mt-1">任务中心</view>
+	
+		</view>
+	
+		<view style="color: deepskyblue;">
+	
+			<view class="iconfont icon-Message-Light pl-4"></view>
+	
+			<view class="font text-muted mt-1">系统消息</view>
+	
+		</view>
+	</view>
+	<!-- 管理区结束 -->
+	
+	<!-- 勋章区开始 -->
+	<view class="bg-white medal">
+		
+		<view class="border p-3 mb-5">
+			<text class="text-dark pr-min ">我的勋章</text>
+			<text class="text-light-muted">快来获得第一枚勋章</text>
+			<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+		</view>
+	
+	</view>
+	<!-- 勋章区结束 -->
+	
+	<!-- 功能区开始 -->
+<view class="bg-white function">
+	
+	<view class="border p-3">
+		<text class="text-dark pr-max">文件暂存区</text>
+		<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+	</view>
+	
+	<view class="border-bottom p-3">
+		<text class="text-dark  pr-min">分享给朋友</text>
+		<text class="text-light-muted">累计分享成功 0 次</text>
+		<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+	</view>
+	
+	<view class="border-bottom p-3">
+		<text class="text-dark  pr-more">用户协议</text>
+		<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+	</view>
+
+	<view class="border-bottom p-3">
+		<text class="text-dark  pr-more">隐私政策</text>
+		<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+	</view>
+
+	<view class="border-bottom p-3">
+		<text class="text-dark  pr-sup">设置</text>
+		<text class="iconfont icon-fangxiang text-muted text-light-muted pl-5"></text>
+	</view>
+
+</view>
+	<!-- 功能区结束 -->
+	
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+	
+.pr-min{
+		padding-right: 160rpx;
+	}
+.pr-max{
+	padding-right: 460rpx;
+    }
+
+.pr-more{
+	padding-right: 500rpx;
+    }
+
+.pr-sup{
+	padding-right: 520rpx;
+    }
+
+.pr-usr{
+	padding-right: 400rpx;
+
+    }
+
+.thumbnail {
+		width: 50px;
+		height: 110rpx;
+		border-radius: var(--radius);
+	}
+.value-box{
+	width: 50px;
+	height: 110rpx;
+}
+
+.username{
+	width: 700rpx;
+	height: 70rpx;
+	position: absolute;
+	top: 56rpx;
+	left: 180rpx;
+}
+
+.icon-fangxiang{
+		font-weight:bold;
+}
+
+.blue{
+	color: var(--info);
+}
+
+.mana-box{
+	padding: 30rpx;
+}
+
+</style>

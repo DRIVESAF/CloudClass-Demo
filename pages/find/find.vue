@@ -1,0 +1,55 @@
+<template>
+	<view class="container">
+		<!-- 功能区开始 -->
+		<view class="bg-white mb-5" style="color: blue">
+			
+			<view class="border p-3">
+				<text class="iconfont icon-a-3User-Light pl-3"></text>
+				<text class="text-dark pr-max" style="padding-right: 430rpx">课程圈</text>
+				<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+			</view>
+			
+			<view class="border-bottom p-3">
+				<text class="iconfont icon-Video-Light pl-3"></text>
+				<text class="text-dark  pr-min" style="padding-right: 430rpx">公开课</text>
+				<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+			</view>
+			
+
+		</view>
+		
+		<view class="bg-white medal" style="color: blue">
+			
+			<view class="border-bottom p-3">
+				<text class="iconfont icon-Edit-Light pl-3 "></text>
+				<text class="text-dark  pr-more" style="padding-right: 430rpx">云教材</text>
+				<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+			</view>
+		
+			<view class="border-bottom p-3" >
+				<text class="iconfont icon-Document-Light pl-3"></text>
+				<text class="text-dark  pr-more" style="padding-right: 400rpx">书香中国</text>
+				<text class="iconfont icon-fangxiang text-muted text-light-muted"></text>
+			</view>
+		
+		</view>
+			<!-- 功能区结束 -->
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style lang = "scss">
+
+</style>
